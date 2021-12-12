@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AQICell" rowHeight="97" id="KGk-i7-Jjw" customClass="AQITableViewCell" customModule="AQM" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="398" height="97"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="398" height="97"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fyy-uV-vT4">
+                        <rect key="frame" x="0.0" y="24.5" width="131.5" height="48.5"/>
+                        <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P7w-In-hMZ">
+                        <rect key="frame" x="262.5" y="5" width="131.5" height="87"/>
+                        <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PaJ-sE-iaG">
+                        <rect key="frame" x="131.5" y="24.5" width="131" height="48.5"/>
+                        <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="P7w-In-hMZ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="8VQ-fD-L41"/>
+                    <constraint firstItem="Fyy-uV-vT4" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.33" id="C5a-U5-dkL"/>
+                    <constraint firstItem="PaJ-sE-iaG" firstAttribute="top" secondItem="Fyy-uV-vT4" secondAttribute="top" id="JDW-ha-aLv"/>
+                    <constraint firstItem="Fyy-uV-vT4" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="M8B-nE-va3"/>
+                    <constraint firstItem="PaJ-sE-iaG" firstAttribute="centerY" secondItem="Fyy-uV-vT4" secondAttribute="centerY" id="NLS-tg-O7d"/>
+                    <constraint firstItem="P7w-In-hMZ" firstAttribute="centerY" secondItem="PaJ-sE-iaG" secondAttribute="centerY" id="NiO-tJ-bfy"/>
+                    <constraint firstAttribute="bottom" secondItem="P7w-In-hMZ" secondAttribute="bottom" constant="5" id="O2b-yn-k8T"/>
+                    <constraint firstItem="PaJ-sE-iaG" firstAttribute="width" secondItem="Fyy-uV-vT4" secondAttribute="width" id="fVT-9G-vQO"/>
+                    <constraint firstItem="P7w-In-hMZ" firstAttribute="width" secondItem="PaJ-sE-iaG" secondAttribute="width" id="g1t-oJ-TR6"/>
+                    <constraint firstItem="Fyy-uV-vT4" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" multiplier="0.5" id="jTV-Qs-MdO"/>
+                    <constraint firstItem="P7w-In-hMZ" firstAttribute="leading" secondItem="PaJ-sE-iaG" secondAttribute="trailing" id="jjF-pZ-ZC6"/>
+                    <constraint firstItem="PaJ-sE-iaG" firstAttribute="bottom" secondItem="Fyy-uV-vT4" secondAttribute="bottom" id="o86-Lp-zxy"/>
+                    <constraint firstItem="PaJ-sE-iaG" firstAttribute="leading" secondItem="Fyy-uV-vT4" secondAttribute="trailing" id="uA7-Wd-KdW"/>
+                    <constraint firstItem="Fyy-uV-vT4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="usd-QB-nfq"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="labelAQIRate" destination="PaJ-sE-iaG" id="ThF-VV-cKI"/>
+                <outlet property="labelCity" destination="Fyy-uV-vT4" id="aFF-c0-sFs"/>
+                <outlet property="labelTimeStamp" destination="P7w-In-hMZ" id="Bfz-KW-bjk"/>
+            </connections>
+            <point key="canvasLocation" x="185.50724637681162" y="-37.165178571428569"/>
+        </tableViewCell>
+    </objects>
+</document>

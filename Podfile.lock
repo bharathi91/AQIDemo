@@ -1,0 +1,38 @@
+PODS:
+  - Charts (3.6.0):
+    - Charts/Core (= 3.6.0)
+  - Charts/Core (3.6.0)
+  - Kingfisher (4.10.1)
+  - ScrollableGraphView (4.0.6)
+  - Socket.IO-Client-Swift (15.2.0):
+    - Starscream (~> 3.1)
+  - Starscream (3.1.1)
+  - TinyConstraints (4.0.2)
+
+DEPENDENCIES:
+  - Charts
+  - Kingfisher
+  - ScrollableGraphView
+  - Socket.IO-Client-Swift
+  - TinyConstraints
+
+SPEC REPOS:
+  trunk:
+    - Charts
+    - Kingfisher
+    - ScrollableGraphView
+    - Socket.IO-Client-Swift
+    - Starscream
+    - TinyConstraints
+
+SPEC CHECKSUMS:
+  Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  ScrollableGraphView: 4af35d4ea9ecdec665d34a74da51da161ddff8ac
+  Socket.IO-Client-Swift: 1e3e3a1f09f3312a167f0d781eb2f383d477357c
+  Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
+  TinyConstraints: 7b7ccc0c485bb3bb47082138ff28bc33cd49897f
+
+PODFILE CHECKSUM: 5f6defe81b461af29469cb3a9dec177dd705a595
+
+COCOAPODS: 1.10.2
